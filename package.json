@@ -1,0 +1,20 @@
+{
+	"author": "Voltaism",
+	"version": "1.0",
+        "onset_build": "1.0.3",
+        "server_scripts": [
+                "server/wsprint.lua",
+                "server/json.lua"
+        ],
+        "client_scripts": [
+                "client/cl_wsprint.lua",
+                "client/wsprint_weapons.lua"
+        ],
+        "auto_updater": {
+           "package.json": "https://raw.githubusercontent.com/vugi99/onset-weapon-sprint/master/package.json",
+           "server/wsprint.lua": "https://raw.githubusercontent.com/vugi99/onset-weapon-sprint/master/server/wsprint.lua",
+           "client/cl_wsprint.lua": "https://raw.githubusercontent.com/vugi99/onset-weapon-sprint/master/client/cl_wsprint.lua",
+           "server/json.lua": "https://raw.githubusercontent.com/vugi99/onset-weapon-sprint/master/server/json.lua",
+           "client/wsprint_weapons.lua": "https://raw.githubusercontent.com/vugi99/onset-weapon-sprint/master/client/wsprint_weapons.lua"
+        }
+}
